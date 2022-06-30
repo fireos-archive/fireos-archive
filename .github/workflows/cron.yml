@@ -1,0 +1,76 @@
+name: Cron dump Fire OS version
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 18 * * *'
+jobs:
+  dump_fireos_version:
+    name: Dump Fire OS version
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
+      matrix:
+        device-slug:
+          - Fire_7_Gen_12
+          - Fire_HD_10_Gen_11
+          - Fire_HD_10_Plus_Gen_11
+          - Fire_HD_8_Gen_10
+          - Fire_HD_8_Plus_Gen_10
+          - Fire_7_Gen_9
+          - Fire_HD_10_Gen_9
+          - Fire_HD_8_Gen_8
+          - Fire_7_Gen_7
+          - Fire_HD_8_Gen_7
+          - Fire_HD_10_Gen_7
+          - Fire_HD_8_Gen_6
+          - Fire_HD_8_Gen_5
+          - Fire_HD_10_Gen_5
+          - Fire_7_Gen_5
+          - Fire_HD_6_Gen_4
+          - Fire_HD_7_Gen_4
+          - Fire_HDX_8.9_Gen_4
+        include:
+          - device-slug: Fire_7_Gen_12
+            url: https://www.amazon.com/update_Fire_7_12th_Gen
+          - device-slug: Fire_HD_10_Gen_11
+            url: https://www.amazon.com/update_Fire_HD10_11th_Gen
+          - device-slug: Fire_HD_10_Plus_Gen_11
+            url: https://www.amazon.com/update_Fire_HD10_Pro_11th_Gen
+          - device-slug: Fire_HD_8_Gen_10
+            url: https://www.amazon.com/update_Fire_HD8_10th_Gen
+          - device-slug: Fire_HD_8_Plus_Gen_10
+            url: https://www.amazon.com/update_Fire_HD8_Plus_10th_Gen
+          - device-slug: Fire_7_Gen_9
+            url: https://www.amazon.com/update_Fire_7_9th_Gen
+          - device-slug: Fire_HD_10_Gen_9
+            url: https://www.amazon.com/update_Fire_HD10_9th_Gen
+          - device-slug: Fire_HD_8_Gen_8
+            url: https://www.amazon.com/update_Fire_HD8_8th_Gen
+          - device-slug: Fire_7_Gen_7
+            url: https://www.amazon.com/update_Fire_7th_Gen
+          - device-slug: Fire_HD_8_Gen_7
+            url: https://www.amazon.com/update_Fire_HD8_7th_Gen
+          - device-slug: Fire_HD_10_Gen_7
+            url: https://www.amazon.com/update_Fire_HD10_7th_Gen
+          - device-slug: Fire_HD_8_Gen_6
+            url: https://www.amazon.com/update_Fire_HD8_6th_Gen
+          - device-slug: Fire_HD_8_Gen_5
+            url: https://www.amazon.com/update_Fire_HD8_5th_Gen
+          - device-slug: Fire_HD_10_Gen_5
+            url: https://www.amazon.com/update_Fire_HD10_5th_Gen
+          - device-slug: Fire_7_Gen_5
+            url: https://www.amazon.com/update_Fire_5th_Gen
+          - device-slug: Fire_HD_6_Gen_4
+            url: https://www.amazon.com/update_Fire_HD6_4th_Gen
+          - device-slug: Fire_HD_7_Gen_4
+            url: https://www.amazon.com/update_Fire_HD7_4th_Gen
+          - device-slug: Fire_HDX_8.9_Gen_4
+            url: https://www.amazon.com/update_Fire_HDX89_4th_Gen
+    steps:
+      - name: Checkout
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+      - name: Dump Fire OS version
+        uses: ./.github/actions/dump_fireos_version
+        with:
+          device-slug: ${{ inputs.device-slug }}
+          url: ${{ inputs.url }}

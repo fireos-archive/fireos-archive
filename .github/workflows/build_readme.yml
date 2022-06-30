@@ -1,0 +1,33 @@
+name: Build README
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+      - name: Setup Node.js
+        uses: actions/setup-node@eeb10cff27034e7acf239c5d29f62154018672fd # tag=v3.3.0
+        with:
+          node-version-file: '.node-version'
+          cache: "yarn"
+          cache-dependency-path: '**/yarn.lock'
+      - name: Build
+        working-directory: ${{ github.workspace }}/scripts
+        run: |
+          yarn install --frozen-lockfile
+          node index.mjs
+      - name: Push
+        if: github.ref == 'refs/heads/main'
+        uses: stefanzweifel/git-auto-commit-action@49620cd3ed21ee620a48530e81dba0d139c9cb80 # tag=v4.14.1
+        with:
+          commit_message: 'chore: update readme [skip ci]'
