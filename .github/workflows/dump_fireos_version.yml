@@ -1,0 +1,45 @@
+name: Dump Fire OS version
+on:
+  workflow_call:
+    inputs:
+      device-slug:
+        required: true
+        type: string
+      url:
+        required: true
+        type: string
+  workflow_dispatch:
+    inputs:
+      device-slug:
+        description: Slug of device
+        required: true
+        type: string
+      url:
+        description: URL of Fire OS bin file
+        required: true
+        type: string
+defaults:
+  run:
+    shell: bash -euxo pipefail {0}
+jobs:
+  dump_fireos_version:
+    name: Dump Fire OS version
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Generate GitHub token
+        id: generate-token
+        uses: tibdex/github-app-token@586e1a624db6a5a4ac2c53daeeded60c5e3d50fe # tag=v1.5.2
+        with:
+          app_id: ${{ secrets.FIREOS_ARCHIVE_BOT_APP_ID }}
+          private_key: ${{ secrets.FIREOS_ARCHIVE_BOT_APP_SECRET_KEY }}
+      - name: Checkout
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+      - name: Dump Fire OS version
+        uses: ./.github/actions/dump_fireos_version
+        with:
+          device-slug: ${{ inputs.device-slug }}
+          url: ${{ inputs.url }}
+          token: ${{ steps.generate-token.outputs.token }}
