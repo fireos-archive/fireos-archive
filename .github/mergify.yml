@@ -1,0 +1,8 @@
+pull_request_rules:
+  - name: automatic merge
+    conditions:
+      - label=automation
+      - check-success=build_readme
+    actions:
+      merge:
+        method: squash
