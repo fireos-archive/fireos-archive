@@ -1,0 +1,14 @@
+queue_rules:
+  - name: default
+    conditions:
+      - check-success=build_readme
+
+pull_request_rules:
+  - name: automatic merge
+    conditions:
+      - label=automation
+      - check-success=build_readme
+    actions:
+      queue:
+        method: merge
+        name: default
