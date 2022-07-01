@@ -1,6 +1,6 @@
 {
   "os_version": "7.3.2.2",
-  "sha256": "4ff62b34bd765f69396083b3e5b9dbea0f2a641a91c966b4ec0351a8feddbcb4",
-  "url": "https://fireos-tablet-updates.s3.amazonaws.com/vrqsofMV7NOWC3yytAPRcZxBqr/update-kindle-Fire_HD8_8th_Gen-PS7322_user_2547_0022247240580.bin",
+  "sha256": "a61354dfb7a138a061bc12d961a22dd61ef63df8475e2bb732348e94d0b4c7cc",
+  "url": "http://fireos-tablet-src.s3.amazonaws.com/06DwywcfWtLerpg56xZ77Mg64Z/update-kindle-Fire_HD8_8th_Gen-PS7322_user_2514_0022247232132.bin",
   "webview_version": "92.amazon-webview-v92-4515-tablet.4515.115.47"
 }
