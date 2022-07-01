@@ -3,11 +3,15 @@
 ## List of Fire OS devices
 
 
+### Fire (7", 12th gen.)
+
+|:link:|Fire OS|Webview|sha256|
+|:--:|:--:|:--:|:--:|
+
 ### Fire HD (10", 11th gen.)
 
 |:link:|Fire OS|Webview|sha256|
 |:--:|:--:|:--:|:--:|
-|[:link:](https://fireos-tablet-updates.s3.amazonaws.com/Wul5fW0znqJNFJufKXP7XFU2ix/update-kindle-Fire_HD10-PS7323_user_2828_0023455272068.bin)|`7.3.2.3`|`96.amazon-webview-v96-4664-tablet.4664.92.25`|`6170183b93f3524d74592c2cdc0fe5333f6428b08a4534fcf945ec037e49c1ab`|
 |[:link:](https://fireos-tablet-updates.s3.amazonaws.com/T4sFrgJ4OjzESNVBzBG9GH2gnG/update-kindle-Fire_HD10-PS7321_user_2324_0021274104964.bin)|`7.3.2.1`|`90.amazon-webview-v90-4430-tablet.4430.91.22`|`e539d88e1afbe6fe0d46e7fc0eb4cc0449af5f013847d96b53f68937c4717816`|
 |[:link:](https://fireos-tablet-src.s3.amazonaws.com/vm4jfkR0UZpAcbUDC8if6XSnyp/update-kindle-Fire_HD_11-PS7319_user_1726_0020367982212.bin)|`7.3.1.9`|`87.ship_v87-36-Cinccino.4280.101.40`|`cf17f1f02cd19f1d9f722e7f25d8e743f5e5f81c5d62423c8ea8e1d3e8553aa2`|
 
