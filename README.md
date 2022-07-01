@@ -261,7 +261,7 @@
 |[:link:](https://fireos-tablet-src.s3.amazonaws.com/ZAsacHmumgrMpCXPdw6oykKMaw/update-kindle-20.5.7.9_user_579279320.bin)|`5.4.0.1`|`55.5340.2883.91.133`|`ecafc9368b8437fcef5fa49824b1930d26a12d9568e42cf7a8d22e2302e2df1a`|
 |[:link:](https://fireos-tablet-src.s3.amazonaws.com/zmFwHjQM26dR2vHID04Yhztekw/update-kindle-20.5.7.9_user_579225620.bin)|`5.4.0.0`|`55.5340.2883.91.133`|`2d25cdce4ec2ff104ba7c1f6934378600d231a3769a459a636ee05fa3efa7071`|
 |[:link:](https://fireos-tablet-src.s3.amazonaws.com/4lZB73kWBGIIliKULTlDZW6woE/update-kindle-20.5.5.4_user_554207020.bin)|`5.3.1.1`|`49.5310.2623.105.213`|`67eb7ee45017406414748f63e4c19c2b9a3486637aa9a3ed41cf01d2610e5dcf`|
-|[:link:](https://kindle-fire-updates.s3.amazonaws.com/3HWlPqKjrqJFPBGFF3fa5VYHBV/update-kindle-20.5.4.2_user_542168620.bin)|`5.1.2`|`(n/a)`|`14c86ca83e931618b0991046272e56ba2f11c9a802a1d2cb9db4d97f970d8321`|
+|[:link:](https://kindle-fire-updates.s3.amazonaws.com/3HWlPqKjrqJFPBGFF3fa5VYHBV/update-kindle-20.5.4.2_user_542168620.bin)|`5.1.2`|`41.51020.2250.0268`|`14c86ca83e931618b0991046272e56ba2f11c9a802a1d2cb9db4d97f970d8321`|
 |[:link:](http://kindle-fire-updates.s3.amazonaws.com/QTktVGEu4kXlEWF0w053GVMUUc/update-kindle-20.4.5.5_user_455002120.bin)|`4.5.5.1`|`34.0.0.5_9999999999`|`89bb271e3fe29bd1fcadd3db93a28ea0692a3abe3191f664258a4bf1af002bf8`|
 |[:link:](http://kindle-fire-updates.s3.amazonaws.com/e3XaP0Iq5Y3oMSgr59aIijU13N/update-kindle-20.4.5.5_user_455001420.bin)|`4.5.5`|`34.0.0.5_9999999999`|`8b1e430a70ab008fd353cca731b44ac5ebf6857554397f6cce819f81887801ee`|
 |[:link:](http://kindle-fire-updates.s3.amazonaws.com/update-kindle-20.4.5.4_user_454006020.bin)|`4.5.4`|`34.0.0.5_9999999999`|`810f884ddd320d35a55cfcf014c2fe7dbcccd9311158b507aea098a78bdfe9d2`|
