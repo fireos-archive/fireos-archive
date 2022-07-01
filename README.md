@@ -188,7 +188,7 @@
 |[:link:](https://kindle-fire-updates.s3.amazonaws.com/T5TbogOVkhl1DdyUDDN8aQtqe4/update-kindle-32.5.5.2_user_552153420.bin)|`5.3.1.0`|`49.5310.2623.105.213`|`0d0d467666ba184b5edc071f74394c9e2acb3a1c78f46d38d42794c04c937903`|
 |[:link:](https://kindle-fire-updates.s3.amazonaws.com/udxKmcRs5UAtXN1m35M38xMHtn/update-kindle-32.5.4.2_user_542168620.bin)|`5.1.2`|`41.51020.2250.0268`|`b93a113e5e30d1c059a3da88ca9a003c3f0f1670afeac9439101081395cb3881`|
 |[:link:](http://kindle-fire-updates.s3.amazonaws.com/3NnB5n5UHQ7hOa24yqEFqBrFlc/update-kindle-32.5.4.1_user_541112720.bin)|`5.1.1`|`41.51020.2250.0246`|`0cdd2abf6c6b96463bc15bb73bcab850fb8a78183ff1af7a5e9be646f16f3ccb`|
-|[:link:](http://kindle-fire-updates.s3.amazonaws.com/k1fYrb7x5a5ryCv8ffmN7erpaK/update-kindle-32.5.2.2_user_522053720.bin)|`5.0.1`|`(n/a)`|`20267ef579a623c60168e7154a1dde4dfce94fde91c6d4483e488506240c45ce`|
+|[:link:](http://kindle-fire-updates.s3.amazonaws.com/k1fYrb7x5a5ryCv8ffmN7erpaK/update-kindle-32.5.2.2_user_522053720.bin)|`5.0.1`|`41.10.500.0153`|`20267ef579a623c60168e7154a1dde4dfce94fde91c6d4483e488506240c45ce`|
 
 ### Fire HD (10", 5th gen.)
 
