@@ -14,32 +14,32 @@ shopt -s nullglob
     esac
   done
 
-  TMPDIR=$(mktemp -d) || (echo "Error: Failed to create tmpdir." >&2 && exit 1)
-  trap 'rm -rf "${TMPDIR}"' EXIT
+  TMP_DIR=$(mktemp -d) || (echo "Error: Failed to create tmpdir." >&2 && exit 1)
+  trap 'rm -rf "${TMP_DIR}"' EXIT
 
   if [[ -z ${INPUT_FILE_URL:+x} ]]; then
     echo "Usage: $(basename $0) -u [FILE_URL]" >&2
     exit 1
   fi
 
-  FILE_URL=$(curl -Ls -o "${TMPDIR}/update.bin" -w '%{url_effective}' "${INPUT_FILE_URL}")
-  unzip -q -d "${TMPDIR}/update" -o "${TMPDIR}/update.bin"
+  FILE_URL=$(curl -Ls -o "${TMP_DIR}/update.bin" -w '%{url_effective}' "${INPUT_FILE_URL}")
+  unzip -q -d "${TMP_DIR}/update" -o "${TMP_DIR}/update.bin"
 
-  if [[ -f "${TMPDIR}/update/system.new.dat.br" ]]; then
-    brotli -d "${TMPDIR}/update/system.new.dat.br" -o "${TMPDIR}/update/system.new.dat"
+  if [[ -f "${TMP_DIR}/update/system.new.dat.br" ]]; then
+    brotli -d "${TMP_DIR}/update/system.new.dat.br" -o "${TMP_DIR}/update/system.new.dat"
   fi
-  if [[ -f "${TMPDIR}/update/system.transfer.list" && -f "${TMPDIR}/update/system.new.dat" ]]; then
-    python2 /opt/sdat2img/sdat2img.py "${TMPDIR}/update/system.transfer.list" "${TMPDIR}/update/system.new.dat" "${TMPDIR}/system.img"
-    ( python2 /opt/ext4extract/ext4extract.py -D "${TMPDIR}/system" --skip-symlinks "${TMPDIR}/system.img" ) \
-      || ( /opt/extfstools/ext2rd "${TMPDIR}/system.img" "./:${TMPDIR}/system" )
+  if [[ -f "${TMP_DIR}/update/system.transfer.list" && -f "${TMP_DIR}/update/system.new.dat" ]]; then
+    python2 /opt/sdat2img/sdat2img.py "${TMP_DIR}/update/system.transfer.list" "${TMP_DIR}/update/system.new.dat" "${TMP_DIR}/system.img"
+    ( python2 /opt/ext4extract/ext4extract.py -D "${TMP_DIR}/system" --skip-symlinks "${TMP_DIR}/system.img" ) \
+      || ( /opt/extfstools/ext2rd "${TMP_DIR}/system.img" "./:${TMP_DIR}/system" )
   fi
 
-  if [[ -d "${TMPDIR}/system/system" ]]; then
-    SYSTEM_DIR="${TMPDIR}/system/system"
-  elif [[ -d ${TMPDIR}/system ]]; then
-    SYSTEM_DIR="${TMPDIR}/system"
+  if [[ -d "${TMP_DIR}/system/system" ]]; then
+    SYSTEM_DIR="${TMP_DIR}/system/system"
+  elif [[ -d "${TMP_DIR}/system" ]]; then
+    SYSTEM_DIR="${TMP_DIR}/system"
   else
-    SYSTEM_DIR="${TMPDIR}/update/system"
+    SYSTEM_DIR="${TMP_DIR}/update/system"
   fi
 
   if [[ -f "${SYSTEM_DIR}/system_ext/app/AmazonWebView/AmazonWebView.apk" ]]; then
@@ -48,8 +48,10 @@ shopt -s nullglob
     AMAZON_WEBVIEW_APK_PATH="${SYSTEM_DIR}/app/AmazonWebView/AmazonWebView.apk"
   elif [[ -f "${SYSTEM_DIR}/app/AmazonWebView.apk" ]]; then
     AMAZON_WEBVIEW_APK_PATH="${SYSTEM_DIR}/app/AmazonWebView.apk"
-  elif [[ -f "${SYSTEM_DIR}/priv-app/AmazonKKWebViewLib.apk" ]]; then
-    AMAZON_WEBVIEW_APK_PATH="${SYSTEM_DIR}/priv-app/AmazonKKWebViewLib.apk"
+  elif [[ -f "${SYSTEM_DIR}/app/SystemWebView/SystemWebView.apk" ]]; then
+    AMAZON_WEBVIEW_APK_PATH="${SYSTEM_DIR}/app/SystemWebView/SystemWebView.apk"
+  elif [[ -f "${SYSTEM_DIR}/app/SystemWebView.apk" ]]; then
+    AMAZON_WEBVIEW_APK_PATH="${SYSTEM_DIR}/app/SystemWebView.apk"
   fi
 
   if [[ ! -f "${SYSTEM_DIR}/build.prop" ]]; then
@@ -57,7 +59,7 @@ shopt -s nullglob
     exit 1
   fi
 
-  UPDATE_BIN_HASH=$(sha256sum -b "${TMPDIR}/update.bin" | awk '{ print $1 }')
+  UPDATE_BIN_HASH=$(sha256sum -b "${TMP_DIR}/update.bin" | awk '{ print $1 }')
   OS_VERSION=$(
     (
       grep -E 'ro.build.mktg.fireos=' "${SYSTEM_DIR}/build.prop" \
