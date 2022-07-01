@@ -123,21 +123,21 @@
     "url": "https://fireos-tablet-src.s3.amazonaws.com/CgQWGFlUN1dOUEzD3tLWKWg4ha/update-kindle-13.4.5.5_user_455007020.bin",
     "sha256": "4bf2aa735cf792d6554b5eafeacfbff97925a775e221f1c87f36b1150a54ed83",
     "os_version": "4.5.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_3",
     "url": "https://fireos-tablet-src.s3.amazonaws.com/5SbugcinZfLIzn4Zo113jnUSsm/update-kindle-14.4.5.5_user_455007020.bin",
     "sha256": "8dec246160d57e7d461a2a072e04307a70df34ebadd8eb4df1ab931642b35302",
     "os_version": "4.5.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_3",
     "url": "https://fireos-tablet-src.s3.amazonaws.com/NPcFX1aYhdUrOeImJ9DyQYS0Qw/update-kindle-11.4.5.5_user_455007020.bin",
     "sha256": "1337c51dc08cb8bac25c87943c6871097949bfd4d2f555c1f71897b34da622ac",
     "os_version": "4.5.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_8.9_Gen_2",
@@ -957,21 +957,21 @@
     "url": "https://fireos-tablet-src.s3.amazonaws.com/SAsacHmumgrMpCXPdw6oykKMaw/update-kindle-11.4.5.5_user_455006120.bin",
     "sha256": "10a5279860505a8e8baade2a371149c2775efc34e52722fbf83de296e9910516",
     "os_version": "4.5.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_7_Gen_3",
     "url": "https://fireos-tablet-src.s3.amazonaws.com/SAsacHmumgrMpCXPdw6oykKMaw/update-kindle-13.4.5.5_user_455006120.bin",
     "sha256": "ceb9b60cd28a03968961ece08500a6cffc4cf7969299d8a85a747c1ca20caa31",
     "os_version": "4.5.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_3",
     "url": "https://fireos-tablet-src.s3.amazonaws.com/SAsacHmumgrMpCXPdw6oykKMaw/update-kindle-14.4.5.5_user_455006120.bin",
     "sha256": "2b1df8c809cd404c7701ee28f42dbfbbcd50c3d02e7ca26967371e3cce7fd87d",
     "os_version": "4.5.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_4",
@@ -1041,7 +1041,7 @@
     "url": "https://fireos-tablet-src.s3.amazonaws.com/BsLxMuTcmnMDHdTpW7rdr5K4Bl/update-kindle-14.4.5.5_user_455004320.bin",
     "sha256": "ed1f0cab261ca17c01049585aee1d97dda9a24dcaf3c39bfa34fe4987384dbc3",
     "os_version": "4.5.5.2",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_6_Gen_4",
@@ -1300,21 +1300,21 @@
     "url": "https://kindle-fire-updates.s3.amazonaws.com/KynfkjCCIcnvbdhpwFlQ4xjyiw/update-kindle-11.4.5.5_user_455004220.bin",
     "sha256": "596b297c35490051924f58a0b690c834455c47741fa12691e362feedd0ca2b50",
     "os_version": "4.5.5.2",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_7_Gen_3",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/eXbqCfqhQNrwCHI54DDUxjPgNf/update-kindle-13.4.5.5_user_455004220.bin",
     "sha256": "3fcf4f37c279f65c2a5ff2f7fa77c4b1141f50009372c3d4c27bd87c85c4caa0",
     "os_version": "4.5.5.2",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_3",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/QhdKFErKQrOaRt3YQ9aekZKvGh/update-kindle-14.4.5.5_user_455004220.bin",
     "sha256": "a916e1c737f1b203621073f52ad858eadb1e82fe635499f7c45a0d7f06879067",
     "os_version": "4.5.5.2",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_7_Gen_5",
@@ -1363,42 +1363,42 @@
     "url": "http://kindle-fire-updates.s3.amazonaws.com/Nq6KdpIbZtxizXYCqcEa8GIpUC/update-kindle-11.4.5.5_user_455002120.bin",
     "sha256": "4745a7b49b11c1139d29c2b8edac8da974ce7211ec4397133862aef54daf949a",
     "os_version": "4.5.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_7_Gen_3",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/Zmd7Iv2g1tmB3ZNVAkSq7SZCzd/update-kindle-13.4.5.5_user_455002120.bin",
     "sha256": "cbec6925fb7da68af7a08b472e3d11b26c9c739a8c0622aa9b89fad4960a198b",
     "os_version": "4.5.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_3",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/tWZaT0v8Ati4LaGNfqJ9YFSCgW/update-kindle-14.4.5.5_user_455002120.bin",
     "sha256": "5450c8f85c1a1c805b0521193c726d635d1f1d6248cd4ea434fb7ce2dd456be9",
     "os_version": "4.5.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_6_Gen_4",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/QTktVGEu4kXlEWF0w053GVMUUc/update-kindle-20.4.5.5_user_455002120.bin",
     "sha256": "89bb271e3fe29bd1fcadd3db93a28ea0692a3abe3191f664258a4bf1af002bf8",
     "os_version": "4.5.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_4",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/QTktVGEu4kXlEWF0w053GVMUUc/update-kindle-20.4.5.5_user_455002120.bin",
     "sha256": "89bb271e3fe29bd1fcadd3db93a28ea0692a3abe3191f664258a4bf1af002bf8",
     "os_version": "4.5.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_4",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/qV2L8lxXi3GdaMjqOLSvRHBTHV/update-kindle-22.4.5.5_user_455002120.bin",
     "sha256": "47c7a54672609136a1eeff9351874532e20718c0d0a53704029698fe596726b6",
     "os_version": "4.5.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_7_Gen_5",
@@ -1447,84 +1447,84 @@
     "url": "http://kindle-fire-updates.s3.amazonaws.com/egl2OCVmE3otklIG6AU0lw7DdU/update-kindle-11.4.5.5_user_455001420.bin",
     "sha256": "59f7625f2e453947537010c8c471886ca36293cf9699ff9684827f98778c3e56",
     "os_version": "4.5.5",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_7_Gen_3",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/YlRPZnYZGkDTlroNYnnAulpZ0E/update-kindle-13.4.5.5_user_455001420.bin",
     "sha256": "4da2762006b20fcc46ae5b6c82dc31fc7d1f2148112ef69d25f3c7d0f43e4787",
     "os_version": "4.5.5",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_6_Gen_4",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/e3XaP0Iq5Y3oMSgr59aIijU13N/update-kindle-20.4.5.5_user_455001420.bin",
     "sha256": "8b1e430a70ab008fd353cca731b44ac5ebf6857554397f6cce819f81887801ee",
     "os_version": "4.5.5",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_4",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/e3XaP0Iq5Y3oMSgr59aIijU13N/update-kindle-20.4.5.5_user_455001420.bin",
     "sha256": "8b1e430a70ab008fd353cca731b44ac5ebf6857554397f6cce819f81887801ee",
     "os_version": "4.5.5",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_3",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/qLYhiMcOTqdUxHopcv715aKqrg/update-kindle-14.4.5.5_user_455001420.bin",
     "sha256": "11b0191220596604b1ac30b5f33b40a9b71e067954aa33e57f002aa2119a6ced",
     "os_version": "4.5.5",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_4",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/z0BdpyBFISMDcWK3srJKUfDiCV/update-kindle-22.4.5.5_user_455001420.bin",
     "sha256": "1a5d70ee1927a2297cb0ef93a8ec79c158ddfd28b2d40664fc9d9a8aa38fdc1f",
     "os_version": "4.5.5",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_3",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/update-kindle-11.4.5.4_user_454006020.bin",
     "sha256": "40eb8243bd3e8d69b03cf13ce2a637616f88b511d2502ef5bbcb6847d3a96c76",
     "os_version": "4.5.4",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_7_Gen_3",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/update-kindle-13.4.5.4_user_454006020.bin",
     "sha256": "b0d6e669703bf6f1a10125cbc02115310089b28465844b6accc4a86418f16be4",
     "os_version": "4.5.4",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_3",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/update-kindle-14.4.5.4_user_454006020.bin",
     "sha256": "2cc6c94aa4211e81c6d77abe518486adee7ce32c61c23a51967fef9e2788893f",
     "os_version": "4.5.4",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_6_Gen_4",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/update-kindle-20.4.5.4_user_454006020.bin",
     "sha256": "810f884ddd320d35a55cfcf014c2fe7dbcccd9311158b507aea098a78bdfe9d2",
     "os_version": "4.5.4",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_4",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/update-kindle-20.4.5.4_user_454006020.bin",
     "sha256": "810f884ddd320d35a55cfcf014c2fe7dbcccd9311158b507aea098a78bdfe9d2",
     "os_version": "4.5.4",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_4",
     "url": "http://kindle-fire-updates.s3.amazonaws.com/update-kindle-22.4.5.4_user_454006020.bin",
     "sha256": "ae2d956fc36093f34546129ea635b363b67c3a46e85fd68bf08f6397d665b6ef",
     "os_version": "4.5.4",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_7_Gen_1",
@@ -1535,126 +1535,126 @@
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-13.4.5.3_user_453011120.bin",
     "sha256": "b235a94fa36eb2c8233722242a666e1412826947a27ae7fb0c6d2008154d51b7",
     "os_version": "4.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_3",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-14.4.5.3_user_453011120.bin",
     "sha256": "117ebf49376441c0e06b5d39e3643120768827f3d0ed8996300c342ba13f3145",
     "os_version": "4.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_3",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-11.4.5.3_user_453011120.bin",
     "sha256": "c91b1e21afc411bf7923bd698f19def324af88ea5ec32ce9e8b2ee713e3ec449",
     "os_version": "4.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_6_Gen_4",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-20.4.5.3_user_453011120.bin",
     "sha256": "d61d5beaf77f984764f8d9db8527766827adf3ce5067feafdbe6288a279c9d8a",
     "os_version": "4.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_4",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-20.4.5.3_user_453011120.bin",
     "sha256": "d61d5beaf77f984764f8d9db8527766827adf3ce5067feafdbe6288a279c9d8a",
     "os_version": "4.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_4",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-22.4.5.3_user_453011120.bin",
     "sha256": "f5bdf1d1ec9734cb3e1b6bf5a3cc1f403805208dbbfab44dbdcc4573ba0244c7",
     "os_version": "4.5.3",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_3",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-11.4.5.2_user_452004120.bin",
     "sha256": "d43afc8b91adeba70958d64041efe18943abed648ec3bef6f39ad7877bfeb585",
     "os_version": "4.5.2",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_7_Gen_3",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-13.4.5.2_user_452004120.bin",
     "sha256": "bfc89bbf6e202ed30e871e55d375c956849939c8ad1c48a99694f01fc25eed9c",
     "os_version": "4.5.2",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_3",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-14.4.5.2_user_452004120.bin",
     "sha256": "e4801c448f2764643b9e1dedb24836a3376a40820b6f74b0d6fb0875199ed905",
     "os_version": "4.5.2",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_6_Gen_4",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-20.4.5.2_user_452004120.bin",
     "sha256": "c70894f16ac036be665f5e0ac219a6b45eb98e1e7147eac27ca9165500433b73",
     "os_version": "4.5.2",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_4",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-20.4.5.2_user_452004120.bin",
     "sha256": "c70894f16ac036be665f5e0ac219a6b45eb98e1e7147eac27ca9165500433b73",
     "os_version": "4.5.2",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_4",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-22.4.5.2_user_452004120.bin",
     "sha256": "8c27c6e8e52d62d038a4d4bcaca0eefb9ead6150dfb7ecd37e614cec71075f5b",
     "os_version": "4.5.2",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_7_Gen_3",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-13.4.5.1_user_451004420.bin",
     "sha256": "ae41c266f92854d3d02ff05ec9ef186a40b8df3525ab89ea2dbd149534029e03",
     "os_version": "4.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_3",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-11.4.5.1_user_451004420.bin",
     "sha256": "fcae7c73901bc395b3bdbbfb253c70ac9808d30e2117e079f3924dd9115f9631",
     "os_version": "4.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_6_Gen_4",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-20.4.5.1_user_451004420.bin",
     "sha256": "9ac8ebb0763f070cb3adba1101eb53de8c95611d4bde49ad31b37f979ea43985",
     "os_version": "4.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HD_7_Gen_4",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-20.4.5.1_user_451004420.bin",
     "sha256": "9ac8ebb0763f070cb3adba1101eb53de8c95611d4bde49ad31b37f979ea43985",
     "os_version": "4.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_4",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-22.4.5.1_user_451004420.bin",
     "sha256": "6ad813499d2d4e7bb90cf0ba6da7c8fe97b8d390ae57e33c8143b3fb3e0d79ef",
     "os_version": "4.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_HDX_8.9_Gen_3",
     "url": "https://kindle-fire-updates.s3.amazonaws.com/update-kindle-14.4.5.1_user_451004420.bin",
     "sha256": "e50bd01a21fc32f4bf995609c847bb5a00ff258c091a87e30d15c38e972c1df4",
     "os_version": "4.5.1",
-    "webview_version": "34.0.0.5_9999999999"
+    "webview_version": "(n/a)"
   },
   {
     "label": "Fire_7_Gen_2",
