@@ -7,6 +7,7 @@
 
 |:link:|Fire OS|Webview|sha256|
 |:--:|:--:|:--:|:--:|
+|[:link:](https://kindle-fire-updates.s3.amazonaws.com/ZdXhsbIBwyYpY0ASVHJqurmViU/update-kindle-Fire_7_12th_Gen-RS8312_user_1138_0021005365892.bin)|`8.3.1.2`|`100.amazon-webview-v100-4896-tablet.4896.127.38`|`4617feae208dd1fcedeaaf9659dca4a95f8f09e59c7029d11eb3b2223fcdcabe`|
 |[:link:](https://kindle-fire-updates.s3.amazonaws.com/lR9LSz5o7uMpazZyQVvYBdi2Et/update-kindle-Fire_7_12th_Gen-RS8311_user_987_0020871109508.bin)|`8.3.1.1`|`96.amazon-webview-v96-4664-tablet.4664.92.39`|`11734f2497e38d2ae38b97f0eac87be90be551c13159e4ce015725b55ccf45c8`|
 
 ### Fire HD (10", 11th gen.)
