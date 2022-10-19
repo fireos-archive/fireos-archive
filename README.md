@@ -3,6 +3,12 @@
 ## List of Fire OS devices
 
 
+### Fire HD (8", 12th gen.)
+
+|:link:|Fire OS|Webview|sha256|
+|:--:|:--:|:--:|:--:|
+|[:link:](https://fireos-tablet-updates.s3.amazonaws.com/Pm7KvhyWFZJQIFYlTxtf9uaLFm/update-kindle-Fire_HD8_12th_Gen-RS8312_user_1144_0021005367428.bin)|`8.3.1.2`|`100.amazon-webview-v100-4896-tablet.4896.127.38`|`a077ada6ac1c62a65dfb2a25983fec71a61805693b766481c10739d75c87366b`|
+
 ### Fire (7", 12th gen.)
 
 |:link:|Fire OS|Webview|sha256|
