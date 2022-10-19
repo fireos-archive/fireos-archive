@@ -8,6 +8,7 @@ import { Liquid } from 'liquidjs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const devices = [
+  { slug: 'Fire_HD_8_Gen_12', name: 'Fire HD (8", 12th gen.)' },
   { slug: 'Fire_7_Gen_12', name: 'Fire (7", 12th gen.)' },
   { slug: 'Fire_HD_10_Gen_11', name: 'Fire HD (10", 11th gen.)' },
   { slug: 'Fire_HD_10_Plus_Gen_11', name: 'Fire HD Plus (10", 11th gen.)' },
