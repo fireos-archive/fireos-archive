@@ -23,7 +23,7 @@ runs:
         restore-keys: |
           ${{ runner.os }}-buildx-
     - name: Build docker image
-      uses: docker/build-push-action@e551b19e49efd4e98792db7592c17c09b89db8d8 # tag=v3.0.0
+      uses: docker/build-push-action@c56af957549030174b10d6867f20e78cfd7debc5 # tag=v3.2.0
       with:
         context: ./docker
         tags: fireos-version:latest
