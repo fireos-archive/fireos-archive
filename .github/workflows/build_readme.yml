@@ -35,6 +35,6 @@ jobs:
           node index.mjs
       - name: Push
         if: github.ref == 'refs/heads/main'
-        uses: stefanzweifel/git-auto-commit-action@0049e3fa4059ca715255fbbcb7dea4516f02ce0a # tag=v4.15.3
+        uses: stefanzweifel/git-auto-commit-action@0b007fbd1180b8e3a3668b21c6517392fe8f26eb # tag=v4.15.4
         with:
           commit_message: 'chore: update readme [skip ci]'
