@@ -7,6 +7,7 @@
 
 |:link:|Fire OS|Webview|sha256|
 |:--:|:--:|:--:|:--:|
+|[:link:](https://fireos-tablet-updates.s3.amazonaws.com/qljSJiSJNYEMJzsofl75Ffk3mJ/update-kindle-Fire_HD8_12th_Gen-RS8313_user_1245_0021072502148.bin)|`8.3.1.3`|`102.amazon-webview-v102-5005-tablet.5005.125.61`|`3142a4bb7debca8145411ec85a9accaa4f0a6221471112be0be163fbb01390e0`|
 |[:link:](https://fireos-tablet-updates.s3.amazonaws.com/Pm7KvhyWFZJQIFYlTxtf9uaLFm/update-kindle-Fire_HD8_12th_Gen-RS8312_user_1144_0021005367428.bin)|`8.3.1.2`|`100.amazon-webview-v100-4896-tablet.4896.127.38`|`a077ada6ac1c62a65dfb2a25983fec71a61805693b766481c10739d75c87366b`|
 
 ### Fire (7", 12th gen.)
