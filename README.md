@@ -7,14 +7,14 @@
 
 |:link:|Fire OS|Webview|sha256|
 |:--:|:--:|:--:|:--:|
-|[:link:](https://fireos-tablet-updates.s3.amazonaws.com/qljSJiSJNYEMJzsofl75Ffk3mJ/update-kindle-Fire_HD8_12th_Gen-RS8313_user_1245_0021072502148.bin)|`8.3.1.3`|`102.amazon-webview-v102-5005-tablet.5005.125.61`|`3142a4bb7debca8145411ec85a9accaa4f0a6221471112be0be163fbb01390e0`|
+|[:link:](https://fireos-tablet-updates.s3.amazonaws.com/UtojcDsxh6CNGy9116Xhw1iIDN/update-kindle-Fire_HD8_12th_Gen-RS8313_user_1247_0021072502660.bin)|`8.3.1.3`|`102.amazon-webview-v102-5005-tablet.5005.125.61`|`f6cf301be40734d6f149b15ed313a9f7f2315e8645d88f468bf98bf1d9e19d85`|
 |[:link:](https://fireos-tablet-updates.s3.amazonaws.com/Pm7KvhyWFZJQIFYlTxtf9uaLFm/update-kindle-Fire_HD8_12th_Gen-RS8312_user_1144_0021005367428.bin)|`8.3.1.2`|`100.amazon-webview-v100-4896-tablet.4896.127.38`|`a077ada6ac1c62a65dfb2a25983fec71a61805693b766481c10739d75c87366b`|
 
 ### Fire (7", 12th gen.)
 
 |:link:|Fire OS|Webview|sha256|
 |:--:|:--:|:--:|:--:|
-|[:link:](https://fireos-tablet-updates.s3.amazonaws.com/bhjozThjPaRuNAMP8shvFLJ0ln/update-kindle-Fire_7_12th_Gen-RS8313_user_1245_0021072502148.bin)|`8.3.1.3`|`102.amazon-webview-v102-5005-tablet.5005.125.61`|`c9f4bcef7bb0a8ab3b1eba3d601b0ebe65293e0c66cd04de44086fe37141802c`|
+|[:link:](https://fireos-tablet-updates.s3.amazonaws.com/yGBw2OLwL0dPmG7BwzpxY3DSq4/update-kindle-Fire_7_12th_Gen-RS8313_user_1247_0021072502660.bin)|`8.3.1.3`|`102.amazon-webview-v102-5005-tablet.5005.125.61`|`c51afe17b8c78cbc2df9b30d0989efaaa189a1a30bf903e49525786aabf46a1f`|
 |[:link:](https://kindle-fire-updates.s3.amazonaws.com/ZdXhsbIBwyYpY0ASVHJqurmViU/update-kindle-Fire_7_12th_Gen-RS8312_user_1138_0021005365892.bin)|`8.3.1.2`|`100.amazon-webview-v100-4896-tablet.4896.127.38`|`4617feae208dd1fcedeaaf9659dca4a95f8f09e59c7029d11eb3b2223fcdcabe`|
 |[:link:](https://kindle-fire-updates.s3.amazonaws.com/lR9LSz5o7uMpazZyQVvYBdi2Et/update-kindle-Fire_7_12th_Gen-RS8311_user_987_0020871109508.bin)|`8.3.1.1`|`96.amazon-webview-v96-4664-tablet.4664.92.39`|`11734f2497e38d2ae38b97f0eac87be90be551c13159e4ce015725b55ccf45c8`|
 
