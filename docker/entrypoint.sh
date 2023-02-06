@@ -30,8 +30,7 @@ shopt -s nullglob
   fi
   if [[ -f "${TMP_DIR}/update/system.transfer.list" && -f "${TMP_DIR}/update/system.new.dat" ]]; then
     python2 /opt/sdat2img/sdat2img.py "${TMP_DIR}/update/system.transfer.list" "${TMP_DIR}/update/system.new.dat" "${TMP_DIR}/system.img"
-    ( python2 /opt/ext4extract/ext4extract.py -D "${TMP_DIR}/system" --skip-symlinks "${TMP_DIR}/system.img" ) \
-      || ( /opt/extfstools/ext2rd "${TMP_DIR}/system.img" "./:${TMP_DIR}/system" )
+    7z x "${TMP_DIR}/system.img" -o"${TMP_DIR}/system" || true
   fi
 
   if [[ -d "${TMP_DIR}/system/system" ]]; then
