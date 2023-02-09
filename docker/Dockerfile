@@ -1,4 +1,4 @@
-FROM python:2.7.18-buster
+FROM python:3.11.2-buster
 
 LABEL io.whalebrew.name 'fireos-version'
 LABEL io.whalebrew.config.environment '["GITHUB_ACTIONS"]'
