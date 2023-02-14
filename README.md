@@ -23,6 +23,7 @@
 
 |:link:|Fire OS|Webview|sha256|
 |:--:|:--:|:--:|:--:|
+|[:link:](https://fireos-tablet-updates.s3.amazonaws.com/lVpuc64UfKiBBnj1xThGWcONPU/update-kindle-Fire_HD10-PS7327_user_3326_0026743733892.bin)|`7.3.2.7`|`104.amazon-webview-v104-5112-tablet.5112.114.50`|`51bc72b9580fea31e2db0ce88b0cdabccdaa0c232c63a7c1be0654ddfc1eb429`|
 |[:link:](https://fireos-tablet-updates.s3.amazonaws.com/iJ5kpJEe1s8H0SowtAS3YLkNeY/update-kindle-Fire_HD10-PS7326_user_3183_0025602846596.bin)|`7.3.2.6`|`102.amazon-webview-v102-5005-tablet.5005.125.61`|`17e712364336d4ae1631d79ea597ebd6e82807e33cf31d9272043ed6bb95956f`|
 |[:link:](https://fireos-tablet-updates.s3.amazonaws.com/4EQZRaLZvAPHDR5weYlmzsghzi/update-kindle-Fire_HD10-PS7324_user_3016_0024529062020.bin)|`7.3.2.4`|`98.amazon-webview-v98-4758-tablet.4758.101.37`|`5cce9b545dfe4494bca7a63e2cfdc73c102c01d925fbd6070c936ca316e1d1fb`|
 |[:link:](https://fireos-tablet-updates.s3.amazonaws.com/OC1KXk8qBMGeLB0gdX6lNFbfWj/update-kindle-Fire_HD10-PS7323_user_2834_0023455273604.bin)|`7.3.2.3`|`96.amazon-webview-v96-4664-tablet.4664.92.25`|`ecb16602c1b05f4b640a19dd6415d0c22fb4ddf9b06ee25957499d9a8bc4e64d`|
