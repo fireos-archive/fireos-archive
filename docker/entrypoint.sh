@@ -29,7 +29,7 @@ shopt -s nullglob
     brotli -d "${TMP_DIR}/update/system.new.dat.br" -o "${TMP_DIR}/update/system.new.dat"
   fi
   if [[ -f "${TMP_DIR}/update/system.transfer.list" && -f "${TMP_DIR}/update/system.new.dat" ]]; then
-    python2 /opt/sdat2img/sdat2img.py "${TMP_DIR}/update/system.transfer.list" "${TMP_DIR}/update/system.new.dat" "${TMP_DIR}/system.img"
+    python3 /opt/sdat2img/sdat2img.py "${TMP_DIR}/update/system.transfer.list" "${TMP_DIR}/update/system.new.dat" "${TMP_DIR}/system.img"
     7z x "${TMP_DIR}/system.img" -o"${TMP_DIR}/system" || true
   fi
 
@@ -74,7 +74,7 @@ shopt -s nullglob
   else
     WEBVIEW_VERSION=$(
       androguard axml -o /dev/stdout "${AMAZON_WEBVIEW_APK_PATH}" \
-      | python2 -c 'import sys; import xml.etree.ElementTree as ET; print(ET.fromstring(sys.stdin.read()).get("{http://schemas.android.com/apk/res/android}versionName"))'
+      | python3 -c 'import sys; import xml.etree.ElementTree as ET; print(ET.fromstring(sys.stdin.read()).get("{http://schemas.android.com/apk/res/android}versionName"))'
     )
   fi
 
