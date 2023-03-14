@@ -30,7 +30,7 @@ runs:
       env:
         INPUT_URL: ${{ inputs.url }}
       run: |
-        docker run --rm -e GITHUB_ACTIONS=${GITHUB_ACTIONS} fireos-version:latest -u "${INPUT_URL}"
+        docker run --rm -e GITHUB_ACTIONS=${GITHUB_ACTIONS} fireos-version:latest -u "${INPUT_URL}" >> "${GITHUB_OUTPUT}"
     - name: Output to file
       shell: bash -euxo pipefail {0}
       env:

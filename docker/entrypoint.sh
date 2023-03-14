@@ -87,5 +87,5 @@ shopt -s nullglob
 if [[ -z ${GITHUB_ACTIONS:+x} ]]; then
   echo "${RESULT}"
 else
-  echo "::set-output name=result::${RESULT}"
+  echo "result=${RESULT}"
 fi
