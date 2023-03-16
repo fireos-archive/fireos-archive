@@ -83,7 +83,7 @@ jobs:
           app_id: ${{ secrets.FIREOS_ARCHIVE_BOT_APP_ID }}
           private_key: ${{ secrets.FIREOS_ARCHIVE_BOT_APP_SECRET_KEY }}
       - name: Checkout
-        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
+        uses: actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f # v3.4.0
       - name: Dump Fire OS version
         uses: ./.github/actions/dump_fireos_version
         with:
