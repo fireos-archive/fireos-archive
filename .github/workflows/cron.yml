@@ -15,6 +15,7 @@ jobs:
       pull-requests: write
     strategy:
       max-parallel: 1
+      fail-fast: false
       matrix:
         device-slug:
           - Fire_HD_8_Gen_12
