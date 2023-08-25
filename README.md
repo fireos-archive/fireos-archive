@@ -157,6 +157,7 @@
 
 |:link:|Fire OS|Webview|sha256|
 |:--:|:--:|:--:|:--:|
+|[:link:](https://fireos-tablet-updates.s3.us-west-2.amazonaws.com/0ddfeap1GXdqCPab39o1Yn1dWv/update-kindle-Fire_HD10_7th_Gen-40.6.5.9_user_659664620.bin)|`5.7.1.0`|`84.amazon-webview-v84-4147-tablet.4147.125.93`|`2c256dbc14a7986a2616df2d88c41709c99c6525aea4eff9a68338dc1645e6eb`|
 |[:link:](https://fireos-tablet-updates.s3.us-west-2.amazonaws.com/c0c2kwjXblLVGbvARgj8ZEo9TP/update-kindle-Fire_HD8_7th_Gen-50.6.5.9_user_659662320.bin)|`5.7.0.0`|`84.amazon-webview-v84-4147-tablet.4147.125.93`|`67782494eab683f8b8ebea208c19190e44b073e6a63559e768224e3d4e1c7506`|
 |[:link:](https://kindle-fire-updates.s3.amazonaws.com/PXVBUq5yV6QJMa1yQOUwIddn1z/update-kindle-Fire_HD8_7th_Gen-50.6.5.9_user_659658220.bin)|`5.6.9.0`|`84.amazon-webview-v84-4147-tablet.4147.125.93`|`0db499e7d64d469827a90743dfad3951e2a2d33194bde4c52a9ddd52137bbf9e`|
 |[:link:](https://fireos-tablet-src.s3.amazonaws.com/KafCJSBzMfXOZWrboTzOWG8VYl/update-kindle-50.6.5.9_user_659655820.bin)|`5.6.8.0`|`84.amazon-webview-v84-4147-tablet.4147.125.93`|`3d5d5787df7797e2d944f3df2d0606851d9f3885fa46cbcc1c6efcc0dec0e4c0`|
