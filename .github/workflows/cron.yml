@@ -18,6 +18,7 @@ jobs:
       fail-fast: false
       matrix:
         device-slug:
+          - Fire_Max_11_Gen_13
           - Fire_HD_8_Gen_12
           - Fire_7_Gen_12
           - Fire_HD_10_Gen_11
@@ -38,6 +39,8 @@ jobs:
           - Fire_HD_7_Gen_4
           - Fire_HDX_8.9_Gen_4
         include:
+          - device-slug: Fire_Max_11_Gen_13
+            url: https://www.amazon.com/update_Fire_Max11_13th_Gen
           - device-slug: Fire_HD_8_Gen_12
             url: https://www.amazon.com/update_Fire_HD8_12th_Gen
           - device-slug: Fire_7_Gen_12
