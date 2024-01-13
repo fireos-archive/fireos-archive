@@ -3,6 +3,12 @@
 ## List of Fire OS devices
 
 
+### Fire HD (10", 13th gen.)
+
+|:link:|Fire OS|Webview|sha256|
+|:--:|:--:|:--:|:--:|
+|[:link:](https://fireos-tablet-src.s3.us-west-2.amazonaws.com/15Bswnl8KAvSTRqKX8a0bmrga4/update-kindle-Fire_HD10_13th_Gen-RS8321_user_1924_0021911536772.bin)|`8.3.2.1`|`114.amazon-webview-v114-5735-tablet.5735.220.54`|`8fc016e0cafc91bcf734c47e2fb8283a55025d90c11a25c85f127d0c9f201887`|
+
 ### Fire Max (11", 13th gen.)
 
 |:link:|Fire OS|Webview|sha256|
