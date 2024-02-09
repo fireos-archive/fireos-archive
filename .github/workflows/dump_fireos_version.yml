@@ -31,7 +31,7 @@ jobs:
     steps:
       - name: Generate GitHub token
         id: generate-token
-        uses: actions/create-github-app-token@86576b355dd19da0519e0bdb63d8edb5bcf76a25 # v1.7.0
+        uses: actions/create-github-app-token@f4c6bf6752984b3a29fcc135a5e70eb792c40c6b # v1.8.0
         with:
           app-id: ${{ secrets.FIREOS_ARCHIVE_BOT_APP_ID }}
           private-key: ${{ secrets.FIREOS_ARCHIVE_BOT_APP_SECRET_KEY }}
