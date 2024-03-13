@@ -48,7 +48,7 @@ runs:
         echo "${INPUT_JSON}" | jq -r --sort-keys . | tee "${OUTPUT_FILE}"
     - name: Create Pull Request
       id: pull-request
-      uses: peter-evans/create-pull-request@a4f52f8033a6168103c2538976c07b467e8163bc # v6.0.1
+      uses: peter-evans/create-pull-request@70a41aba780001da0a30141984ae2a0c95d8704e # v6.0.2
       with:
         commit-message: 'chore: update ${{ inputs.device-slug }} version'
         branch: chore/update-${{ inputs.device-slug }}
