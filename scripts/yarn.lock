@@ -129,10 +129,10 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-liquidjs@10.19.1:
-  version "10.19.1"
-  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-10.19.1.tgz#a39adc1bcb494217ba706d39577210d0d0014b35"
-  integrity sha512-3xb+LAWB8/btUJIuqO52zTxoYovaCS5foaLjBaa/ntRh4yss4NxhZzMcJRYkcQDFGNGWbhcXzZlN7m+hSYIxcw==
+liquidjs@10.20.0:
+  version "10.20.0"
+  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-10.20.0.tgz#049bf48c3c72e13e47b69572b4be06515e2f824e"
+  integrity sha512-y1tHDaHGtYXcZehRzy8UST0t0E9iPOdT4hAk5ZuSquaDRW4j1lGUePaVyX6AP07cZarm3tL8FEtHx19UXgi9pQ==
   dependencies:
     commander "^10.0.0"
 
