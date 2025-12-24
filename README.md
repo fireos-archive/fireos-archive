@@ -43,6 +43,7 @@
 
 |:link:|Fire OS|Webview|sha256|
 |:--:|:--:|:--:|:--:|
+|[:link:](https://fireos-tablet-src.s3.us-west-2.amazonaws.com/4amHNOvwW4KDYd5xDz75MnJ9nn/update-Fire_HD8_12th_Gen-RS8338_user_3339_0030132734852.bin)|`8.3.3.8`|`124.amazon-webview-v124-6367-tablet.6367.248.72`|`044b4c4622841510a2a9acd41ac3f0bd3c5dc4909f87a7e395b47dc4569c8d34`|
 |[:link:](https://fireos-tablet-src.s3.us-west-2.amazonaws.com/01DwywcfWtLerpg64xZ79Mg69Z/update-kindle-Fire_HD8_12th_Gen-RS8337_user_3186_0029461607044.bin)|`8.3.3.7`|`124.amazon-webview-v124-6367-tablet.6367.248.72`|`e1c13b49a9ae97531ee49c76b1d890268b38d3a3d15376809bd0cdfd74d4a819`|
 |[:link:](https://fireos-tablet-src.s3.us-west-2.amazonaws.com/3omHNOvwW4KDYd5xDz75MnJ9np4/update-kindle-Fire_HD8_12th_Gen-RS8336_user_3103_0028656279428.bin)|`8.3.3.6`|`124.amazon-webview-v124-6367-tablet.6367.248.72`|`96f6062a36b8270434b1db51d1e81498da83cb30025870e5231e1eb4e71f165b`|
 |[:link:](https://fireos-tablet-src.s3.us-west-2.amazonaws.com/3omHNOvwW4KDYd5xDz75MnJ9npabd/update-kindle-Fire_HD8_12th_Gen-RS8335_user_2972_0027716721796.bin)|`8.3.3.5`|`124.amazon-webview-v124-6367-tablet.6367.248.72`|`f656ac60046e87c6e1cd073d1d2367e128f3ad2c1ecb61ceccda6f21c9d69d46`|
