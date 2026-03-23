@@ -3,6 +3,6 @@
   "dependencies": {
     "fs-extra": "11.3.4",
     "globby": "^16.1.1",
-    "liquidjs": "10.25.0"
+    "liquidjs": "10.25.1"
   }
 }
