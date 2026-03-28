@@ -2,7 +2,7 @@
   "private": true,
   "dependencies": {
     "fs-extra": "11.3.4",
-    "globby": "^16.1.1",
+    "globby": "^16.2.0",
     "liquidjs": "10.25.2"
   }
 }
