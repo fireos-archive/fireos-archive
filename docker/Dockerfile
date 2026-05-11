@@ -1,7 +1,7 @@
-FROM python:3.11.4-buster
+FROM python:3.14.4-bookworm@sha256:059d23ace0128326758823b8b5e3ca0ff9b3c57a890eea94affedaba9b553358
 
-LABEL io.whalebrew.name 'fireos-version'
-LABEL io.whalebrew.config.environment '["GITHUB_ACTIONS"]'
+LABEL io.whalebrew.name=fireos-version
+LABEL io.whalebrew.config.environment=["GITHUB_ACTIONS"]
 
 RUN apt-get update \
   && apt-get install -y jq brotli p7zip-full \
