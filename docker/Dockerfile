@@ -1,4 +1,4 @@
-FROM python:3.14.7-bookworm@sha256:14b9dc6ce4dcf381e4b95c3631f1eecf2e6538a3c57fe4c8c42d655f435179f3
+FROM python:3.14.7-bookworm@sha256:d686a5de867d5af0bce88112d8dee7dcdf8bbf1a8cadf5d0589f48381f229638
 
 LABEL io.whalebrew.name=fireos-version
 LABEL io.whalebrew.config.environment=["GITHUB_ACTIONS"]
